@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="shortcut icon" href="laptop.png" type="image/x-icon">
+</head>
+
+<body style="background:#eb4d4b">
+  <div class="container">
+
+    <header class="text-center text-white my-4 ">
+      <h1 class="mb-4">Todo List</h1>
+      <form class="add text-center my-4">
+        <label class="text-light h2">Add a new todo...</label>
+        <input class="form-control m-auto bg-dark" type="text" name="add" />
+      </form>
+
+    </header>
+
+    <ul class="list-group todos mx-auto text-light">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Play Game</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Learn Programming</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Learn Drawing</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+    </ul>
+
+
+
+  </div>
+  <script src="app.js">
+  </script>
+</body>
+
+</html>
